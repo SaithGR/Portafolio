@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top, rgb(255, 255, 255),rgb(101, 101, 101) );
+}
+.phone{
+    display: flex;
+}
+
+.iphone {
+    background: #000;
+    border: 10px solid #000000;
+    border-radius: 35px;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.volume{
+    height: 200px;
+    width: 50px;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: center;
+}
+.on{
+    height: 200px;
+    width: 50px;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.volume-up{
+    background-color: #000;
+    height: 50px;
+    width: 2px;
+    border: 1px solid;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px ;
+    margin-bottom: 5px;
+}
+.volume-down{
+    background-color: #000;
+    height: 50px;
+    width: 2px;
+    border: 1px solid;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px ;
+    margin-bottom: 5px;
+}
+.on-off{
+    background-color: #000;
+    height: 60px;
+    width: 2px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius:3px ;
+    margin-bottom: 5px;
+}
+.screen {
+    background: #fff;
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.button {
+    background: #222;
+    width: 140px;
+    height: 5px;
+    border-radius: 5px;
+}
+.nodge {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+}
+.nodge-cam {
+    background: #222;
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+}
